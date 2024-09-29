@@ -3,30 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Mi primer sitio Web</title>
 </head>
 <body>
 <header>
-    <span>HOME</span>
-    <span>TIENDA</span>
-    <span>NOSOTROS</span>
-    <span>NOTICIAS</span>
+    <span class="sombraMenu"><a href="#main">home</a></span>
+    <span class="sombraMenu"><a href="#sectionTwo">sectionTwo</a></span>
 </header>
-<main>
-    <h1>Este seria el titulo de la web</h1>
-    <section>
+<main id="main">
+    <div id="title">
+    <h1>Este seria el mejor titulo de la web</h1>
+</div>
+    <section id="imgSubtitles">
         
-        <img src="" alt="">
-       <div> <h2>Aca iria un subtitulo de la imagen</h2>
-        <p>Un pequeño texto</p></div>
+        <img src="./pexels-nivdex-796206.jpg" alt="">
+       <h2>Aca iria un subtitulo</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dicta!</p>
     </section>
-    <section>
-        <ul><li>Un ejemplo de lista</li>
-        <li>Un ejemplo de lista</li>
-        <li>Un ejemplo de lista</li>
-        <li>Un ejemplo de lista</li></ul>
-    </section>
+    
 </main>
+
+<section id="sectionTwo">
+    <h2>Nose para que una lista aca pero va</h2>
+    <ul><li>Un ejemplo de lista</li>
+    <li>Un ejemplo de lista</li>
+    <li>Un ejemplo de lista</li>
+    <li>Un ejemplo de lista</li></ul>
+</section>
 <footer>
     <span>Nosotros</span>
     <span>Contacto</span>
